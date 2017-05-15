@@ -1,0 +1,11 @@
+Problem in Multer code:
+    It worked in this way. delete this line,
+
+    app.use(multer({ dest: './uploads' }));
+    and use it as,
+
+    var multer = require('multer');
+    var upload = multer({ dest: './uploads' });
+
+
+From URL: (http://stackoverflow.com/questions/31656178/typeerror-app-use-requires-middleware-function)
