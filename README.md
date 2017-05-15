@@ -1,5 +1,11 @@
 # nodejs-user-login
-Simple nodejs based user registration, members and  login system.
+Nodejs based Full User Login/Registration System
+
+-- MongoDb NoSQL Datastore
+-- Mongoose ORM
+-- Passport User Authentication
+-- Bcrypt Encryption
+
 
 1. Clone the repo
 2. Hit "npm start"
